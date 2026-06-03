@@ -616,13 +616,6 @@ function HomePage({ siteData }) {
                 <div className="aspect-[4/5] overflow-hidden bg-black/20">
                   <img src={toGoogleDriveImage(siteData.profile.heroImage)} alt="Hero" className="h-full w-full object-cover" />
                 </div>
-                <div className="border-t border-white/10 p-5">
-                  <div className="text-xs uppercase tracking-[0.2em] text-white/35">Portrait / hero visual</div>
-                  <div className="mt-3 text-2xl font-medium">{siteData.profile.name}</div>
-                  <p className="mt-3 text-sm leading-7 text-white/60">
-                    Use this area for your own portrait, avatar, or premium hero image.
-                  </p>
-                </div>
               </div>
             </div>
           </div>
